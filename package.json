@@ -1,0 +1,29 @@
+{
+  "name": "swap-case",
+  "version": "0.0.0",
+  "description": "Swap the case of a string",
+  "main": "swap-case.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/swap-case.git"
+  },
+  "keywords": [
+    "swap",
+    "case",
+    "reverse",
+    "switch"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/swap-case/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/swap-case",
+  "devDependencies": {
+    "istanbul": "^0.2.6",
+    "mocha": "^1.18.2"
+  }
+}
