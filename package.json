@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/blakeembrey/swap-case",
   "devDependencies": {
-    "istanbul": "^0.2.6",
+    "istanbul": "^0.3.0",
     "mocha": "^1.18.2"
   }
 }
