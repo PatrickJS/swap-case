@@ -1,6 +1,6 @@
 {
   "name": "swap-case",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Swap the case of a string",
   "main": "swap-case.js",
   "scripts": {
