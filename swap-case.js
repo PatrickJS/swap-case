@@ -5,7 +5,11 @@
  * @return {String}
  */
 module.exports = function (string) {
-  return string.toString().replace(/\w/g, function (c) {
+  if (string == null) {
+    return '';
+  }
+
+  return String(string).replace(/\w/g, function (c) {
     var u = c.toUpperCase();
 
     return c === u ? c.toLowerCase() : u;
