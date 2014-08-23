@@ -5,7 +5,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
 
-Swap the case of a string. Also handles non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will come out as an empty string.
+Swap the case of a string with non-ASCII character support. Also handles non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will come out as an empty string.
 
 ## Installation
 
@@ -18,9 +18,10 @@ npm install swap-case --save
 ```javascript
 var swapCase = require('swap-case');
 
-swapCase(null);         //=> ""
-swapCase('string');     //=> "STRING"
-swapCase('PascalCase'); //=> "pASCALcASE"
+swapCase(null);                   //=> ""
+swapCase('string');               //=> "STRING"
+swapCase('PascalCase');           //=> "pASCALcASE"
+swapCase('Iñtërnâtiônàlizætiøn'); //=> "iÑTËRNÂTIÔNÀLIZÆTIØN"
 ```
 
 ## License

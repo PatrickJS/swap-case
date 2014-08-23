@@ -8,5 +8,6 @@ describe('swap case', function () {
     assert.equal(swapCase('test'), 'TEST');
     assert.equal(swapCase('TEST'), 'test');
     assert.equal(swapCase('PascalCase'), 'pASCALcASE');
+    assert.equal(swapCase('Iñtërnâtiônàlizætiøn'), 'iÑTËRNÂTIÔNÀLIZÆTIØN');
   });
 });
